@@ -19,6 +19,7 @@ python -m spacy download fr_core_news_sm
 ```
 docker pull neo4j:latest
 ```
+Set your login: neo4j / test -> USE YOUR username and password below:
 ```
 docker run --name neo4j-test \
   -p 7474:7474 -p 7687:7687 \
@@ -26,7 +27,6 @@ docker run --name neo4j-test \
   -d neo4j:latest
 ```
 Neo4j at: http://localhost:7474
-Set your login: neo4j / test -> USE YOUR username and password
 
 ### 📓 Usage
 Start Jupyter:
